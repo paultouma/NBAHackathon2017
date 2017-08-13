@@ -97,5 +97,4 @@ public abstract class League {
 	public Collection<Team> getAllTeams() {
 		return teams.values();
 	}
-
 }

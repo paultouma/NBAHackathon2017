@@ -22,16 +22,15 @@ public class NBAHackathon2K17 {
 		Map<String, Map<String, List<String>>> divConfInfoMap = Parser.readDivConfInfo();
 		List<Map<String, String>> games = Parser.readGameInfo();
 
-		NBAOrganization nbaOrg = new NBAOrganization(divConfInfoMap, games);
+		NBAOrganization nbaOrganization = new NBAOrganization(divConfInfoMap, games);
 
 		// set elimination dates for all teams
-		nbaOrg.setEliminationDays();
+		nbaOrganization.setEliminationDays();
 
 		// print out results
-		for (Team t : nbaOrg.getAllTeams()) {
+		for (Team t : nbaOrganization.getAllTeams()) {
 			Date eliminationDate = t.getDateEliminated();
 			System.out.println(t.getName() + ": " + (eliminationDate == null ? "playoffs" : eliminationDate));
 		}
-
 	}
 }

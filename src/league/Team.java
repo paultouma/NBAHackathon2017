@@ -203,11 +203,4 @@ public class Team {
 	public Stats getStats() {
 		return stats;
 	}
-
-	// public String toString() {
-	// return this.name + " " +
-	// this.stats.getCurrentWinningPercentage().getNumWins() + " out of "
-	// + this.stats.getCurrentWinningPercentage().getTotalGames();
-	// }
-
 }

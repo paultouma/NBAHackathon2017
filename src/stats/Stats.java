@@ -23,10 +23,30 @@ public class Stats {
 
 	private Team myTeam;
 
+	/**
+	 * Constructor
+	 * 
+	 * @param t
+	 *            - team stats are for
+	 */
 	public Stats(Team t) {
 		this.myTeam = t;
 	}
 
+	/**
+	 * Adds statistics to a game.
+	 * 
+	 * @param other
+	 *            - other team
+	 * @param previousDate
+	 *            - date for previous game date for teams
+	 * @param date
+	 *            - date for current game
+	 * @param isOneOfPlayingTeams
+	 *            - whether this class' team reference is playing in game
+	 * @param thisTeamWon
+	 *            - whether this class' team reference won game
+	 */
 	public void addStatsForGame(Team other, Date previousDate, Date date, boolean isOneOfPlayingTeams,
 			boolean thisTeamWon) {
 
@@ -66,23 +86,50 @@ public class Stats {
 		conferenceWinningPercentage.put(date, previousConferenceWinningPercentage); // store
 	}
 
+	/**
+	 * Returns current winning percentage
+	 * 
+	 * @return winning percentage
+	 */
 	public WinningPercentage getCurrentWinningPercentage() {
 		return winningPercentage.get(myTeam.getCurrentDate());
 	}
 
+	/**
+	 * Returns current winning percentage against other team
+	 * 
+	 * @param other
+	 *            - other team
+	 * @return winning percentage
+	 */
 	public WinningPercentage getCurrentWinningPercentageAgainstTeam(Team other) {
 		Map<Team, WinningPercentage> map = winningPercentageAgainstTeam.get(myTeam.getCurrentDate());
 		return map == null ? new WinningPercentage() : map.get(other);
 	}
 
+	/**
+	 * Returns current division winning percentage
+	 * 
+	 * @return winning percentage
+	 */
 	public WinningPercentage getCurrentDivisionWinningPercentage() {
 		return divisionWinningPercentage.get(myTeam.getCurrentDate());
 	}
 
+	/**
+	 * Returns current conference winning percentage
+	 * 
+	 * @return winning percentage
+	 */
 	public WinningPercentage getCurrentConferenceWinningPercentage() {
 		return conferenceWinningPercentage.get(myTeam.getCurrentDate());
 	}
 
+	/**
+	 * Returns this class team's reference
+	 * 
+	 * @return team
+	 */
 	public Team getTeam() {
 		return myTeam;
 	}

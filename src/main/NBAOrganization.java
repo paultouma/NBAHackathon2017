@@ -55,13 +55,13 @@ public class NBAOrganization extends League {
 					} else if (currentWins + possibleMoreWins == currentEightSeedWins) {
 
 						List<Team> simulatedTeams = new ArrayList<Team>();
-						List<Team> teamsAboveMe = current.getC().getTeamsAbove(current, previousDate);
+						List<Team> betterRankingTeams = current.getC().getTeamsAbove(current, previousDate);
 
-						for (Team t : teamsAboveMe) {
-							simulatedTeams.add(t.simulateAfterDate(previousDate, false, teamsAboveMe));
+						for (Team t : betterRankingTeams) {
+							simulatedTeams.add(t.simulateAfterDate(previousDate, false, betterRankingTeams));
 						}
 
-						Team currentSim = current.simulateAfterDate(previousDate, true, teamsAboveMe);
+						Team currentSim = current.simulateAfterDate(previousDate, true, betterRankingTeams);
 
 						simulatedTeams.add(currentSim);
 
