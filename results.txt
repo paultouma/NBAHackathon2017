@@ -1,0 +1,30 @@
+Memphis Grizzlies: playoffs
+LA Clippers: playoffs
+San Antonio Spurs: playoffs
+Boston Celtics: playoffs
+Utah Jazz: playoffs
+Milwaukee Bucks: playoffs
+Los Angeles Lakers: Fri Mar 17 00:00:00 EDT 2017
+Sacramento Kings: Wed Mar 29 00:00:00 EDT 2017
+Charlotte Hornets: Fri Apr 07 00:00:00 EDT 2017
+Indiana Pacers: playoffs
+Oklahoma City Thunder: playoffs
+Philadelphia 76ers: Tue Mar 28 00:00:00 EDT 2017
+Portland Trail Blazers: playoffs
+Miami Heat: playoffs
+Brooklyn Nets: Mon Mar 06 00:00:00 EST 2017
+New York Knicks: Tue Mar 28 00:00:00 EDT 2017
+Golden State Warriors: playoffs
+Minnesota Timberwolves: Sat Apr 01 00:00:00 EDT 2017
+Toronto Raptors: playoffs
+Atlanta Hawks: playoffs
+Houston Rockets: playoffs
+Dallas Mavericks: Sat Apr 01 00:00:00 EDT 2017
+Detroit Pistons: Fri Apr 07 00:00:00 EDT 2017
+Denver Nuggets: Sun Apr 09 00:00:00 EDT 2017
+New Orleans Pelicans: Sun Apr 02 00:00:00 EDT 2017
+Cleveland Cavaliers: playoffs
+Chicago Bulls: Wed Apr 12 00:00:00 EDT 2017
+Washington Wizards: playoffs
+Phoenix Suns: Tue Mar 21 00:00:00 EDT 2017
+Orlando Magic: Mon Mar 27 00:00:00 EDT 2017
