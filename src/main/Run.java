@@ -15,7 +15,7 @@ import league.Team;
  * @author paultouma
  *
  */
-public class NBAHackathon2K17 {
+public class Run {
 
 	public static void main(String[] args) throws IOException {
 
