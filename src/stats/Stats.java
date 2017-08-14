@@ -57,8 +57,8 @@ public class Stats {
 				? new HashMap<Team, WinningPercentage>(winningPercentageAgainstTeam.get(previousDate))
 				: new HashMap<Team, WinningPercentage>();
 
-		WinningPercentage previousWinningPercentageAgainstTeam = mapAgainstOtherTeams.get(previousDate) != null
-				? new WinningPercentage(mapAgainstOtherTeams.get(previousDate)) : new WinningPercentage();
+		WinningPercentage previousWinningPercentageAgainstTeam = mapAgainstOtherTeams.get(other) != null
+				? new WinningPercentage(mapAgainstOtherTeams.get(other)) : new WinningPercentage();
 
 		WinningPercentage previousDivisionWinningPercentage = divisionWinningPercentage.size() > 0
 				? new WinningPercentage(divisionWinningPercentage.get(previousDate)) : new WinningPercentage();

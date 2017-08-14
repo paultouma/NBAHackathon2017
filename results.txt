@@ -11,7 +11,7 @@ Indiana Pacers: playoffs
 Oklahoma City Thunder: playoffs
 Philadelphia 76ers: Tue Mar 28 00:00:00 EDT 2017
 Portland Trail Blazers: playoffs
-Miami Heat: playoffs
+Miami Heat: Wed Apr 12 00:00:00 EDT 2017
 Brooklyn Nets: Mon Mar 06 00:00:00 EST 2017
 New York Knicks: Tue Mar 28 00:00:00 EDT 2017
 Golden State Warriors: playoffs
@@ -24,7 +24,7 @@ Detroit Pistons: Fri Apr 07 00:00:00 EDT 2017
 Denver Nuggets: Sun Apr 09 00:00:00 EDT 2017
 New Orleans Pelicans: Sun Apr 02 00:00:00 EDT 2017
 Cleveland Cavaliers: playoffs
-Chicago Bulls: Wed Apr 12 00:00:00 EDT 2017
+Chicago Bulls: playoffs
 Washington Wizards: playoffs
 Phoenix Suns: Tue Mar 21 00:00:00 EDT 2017
 Orlando Magic: Mon Mar 27 00:00:00 EDT 2017
