@@ -1,4 +1,4 @@
-# NBAHackaton2K17
+# NBAHackaton2017
 
 The files in this repo are my solution for the 2017 NBA Hackathon Optional Question. The results are in the results.txt file. The code itself can be cound under /src folder.
 Analytics_Attachment.xlsx contains the original team and game information.
